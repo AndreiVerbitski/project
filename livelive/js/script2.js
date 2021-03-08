@@ -1,4 +1,4 @@
-"use strict";
+// "use strict";
 
 // if (4 == 9) {
 //     console.log("ok");
@@ -56,9 +56,57 @@
 //     console.log("WHy you entered not a number?? bitch");
 // };
 
-let number = 0;
+// let number = 0;
 
-while (number <= 12) {
-    console.log(number);
-    number += 2;
-};
+// while (number <= 12) {
+//     console.log(number);
+//     number += 2;
+// };
+
+// let result = 1,
+//     counter = 0;
+
+// while (counter < 10) {
+//     result *= 2;
+//     counter += 1;
+// }
+// console.log(result);
+// let num = 50;
+
+// while (num < 55) {
+//     console.log(num);
+//     num++;
+// };
+
+// do {
+//     console.log(num);
+//     num++;
+// } while (num < 55);
+
+// for (let i = 1; i < 10; i++) {
+//     if (i === 6) {
+//         continue;
+//     };
+//     console.log(i);
+// };
+"use strict";
+
+// let n = "#";
+// while (n.length <= 7) {
+//     console.log(n);
+//     n = n + "#";
+    
+// }
+
+for (let i = 0; i <= 100; i++) {
+    if (i % 3 ==0 && i % 5 ==0){
+        console.log(i + " FIzz and Buzz")
+    }
+    else if (i % 3 == 0) {
+        console.log(i);
+        console.log("fizz");
+    }else if (i % 5 == 0 && i % 3 !=0) {
+        console.log(i);
+        console.log("buzz")
+    }
+}
